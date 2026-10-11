@@ -156,7 +156,7 @@ Este proyecto integra y modifica software de terceros:
 - **[KLT](https://cecas.clemson.edu/~stb/klt/)**, de Stan Birchfield y Thorsten Thormählen, de dominio público.
 - **Pivelocimetry**, de Benjamin Pelc. No se incluye en este repositorio.
 
-Como la interfaz deriva de OpenPIV-Tk-GUI, el conjunto se distribuye bajo la **GNU General Public License v3**. Consulta [`openpiv_tk_gui-master/LICENCE`](openpiv_tk_gui-master/LICENCE).
+Como la interfaz deriva de OpenPIV-Tk-GUI, el conjunto se distribuye bajo la **GNU General Public License v3**. Consulta [`LICENSE`](./LICENSE).
 
 ## Autor
 

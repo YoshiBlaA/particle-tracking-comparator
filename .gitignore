@@ -1,0 +1,85 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec.bak
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Entornos virtuales (los crea 1_create_venvs.sh)
+v/
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Editores / IDE ----------
+.vscode/
+.vs/
+.idea/
+*.suo
+*.ncb
+*.user
+# Proyectos de Code::Blocks (guardan rutas absolutas locales)
+*.cbp
+*.depend
+*.layout
+*~
+*.swp
+
+# ---------- Compilados (C / Cython) ----------
+*.o
+*.a
+*.so
+*.exe
+KLT/example[1-5]
+# Archivos C y reportes HTML generados por Cython a partir de los .pyx
+AdaptivePIV_3.7/AdaptivePIV/PIV/*.c
+AdaptivePIV_3.7/AdaptivePIV/PIV/*.html
+
+# ---------- Dependencia externa (se clona y compila aparte, ver README) ----------
+Pivelocimetry/
+
+# ---------- Resultados generados por la interfaz ----------
+*.vec
+*_flujo_reducido.csv
+reduced_flow.csv
+*_ref_gridded.csv
+csv_remuestreado.csv
+OpenPIV_df.csv
+E_results.txt
+piv_failed.txt
+openpiv_tk_gui-master/all_algorithms_df.csv
+openpiv_tk_gui-master/graficas/*
+!openpiv_tk_gui-master/graficas/NO_ELIMINAR
+KLT_feat*.ppm
+KLT_feat*.txt
+KLT_feat*.fl
+KLT/example*_resultados/
+
+# ---------- Datos pesados (imágenes de partículas, flujos de referencia) ----------
+*.flo
+*.tif
+*.tiff
+*.bmp
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.mat
+*.zip
+*.tar.gz
+*.7z
+PIV_IMAGES/
+
+# ---------- Material local que no forma parte del repositorio ----------
+Entregables/
+Notas/
+Resultados vec/
+/graficas/
+/all_algorithms_df.csv
+*.pdf
+encuesta_enlace.txt
